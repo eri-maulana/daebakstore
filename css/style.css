@@ -1,0 +1,13 @@
+/* style untuk kotak dashboard kategori sama produk */
+.kotak {
+    border-radius: 15px;
+}
+
+.summery-kategori {
+    background-color: #ddd;
+}
+
+.no-decoration {
+    text-decoration: none;
+}
+

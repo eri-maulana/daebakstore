@@ -1,0 +1,112 @@
+@font-face {
+    font-family: viga;
+    src: url(../font/Viga-Regular.ttf);
+}
+
+.navbar {
+    font-family: viga;
+}
+
+.font-viga {
+    font-family: viga;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.warna1 {
+    background-color: #4be39f;
+}
+
+.warna2 {
+    background-color: #46e7b7;
+}
+
+.bg-produk-terkait {
+    background-color: #44db97;
+}
+
+.warna {
+    background-color: #4be39fbe;
+}
+
+/* style banner/gambar paling atas */
+.banner {
+    height: 80vh !important;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../image/banner/Banner-1.jpeg) !important;
+    background-size: cover;
+    background-repeat: inherit;
+    font-family: viga;
+}
+
+.banner2 {
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../image/banner/Banner-2.jpeg);
+    font-family: viga;
+}
+
+.banner3 {
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../image/banner/Banner-3.jpeg);
+    font-family: viga;
+}
+
+
+/* style kategori unggulan */
+.highlight-kategori {
+    height: 400px;
+}
+
+.blouse {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/blouse.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.tunik {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/dress.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.celana {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/celana.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* style untuk href */
+.no-decoration {
+    text-decoration: none;
+    color: white;
+}
+
+.no-decoration:hover {
+    color: #4be39f;
+}
+
+/* style produk */
+.image-box {
+    height: 300px;
+}
+
+.image-box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* page produk detail */
+.text-color {
+    color: #46e7b7;
+}
+
+.image-terkait {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
